@@ -1,0 +1,12 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="15dp"
+    android:shadowColor="#002AFF"
+    android:text="@string/default_name"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#FFFFFF"
+    android:textSize="48sp" />

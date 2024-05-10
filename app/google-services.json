@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573591015827",
+    "project_id": "taller3movil-1f6d2",
+    "storage_bucket": "taller3movil-1f6d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573591015827:android:20b5a48ae4178462c6d866",
+        "android_client_info": {
+          "package_name": "com.example.nuevo_parchaosr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8k00boiYkmt51gu3rdq15XFeOqX_WrA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

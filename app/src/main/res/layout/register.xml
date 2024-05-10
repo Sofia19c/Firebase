@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_aplicacion"
+    >
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/botonRegister"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_rectangular_rounded_bg"
+        android:gravity="center"
+        android:text="@string/registrarse"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.317" />
+
+      <ImageView
+        android:id="@+id/logo"
+        android:layout_width="312dp"
+        android:layout_height="152dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/image_logo_large" />
+
+      <LinearLayout
+          android:id="@+id/linearLayout3"
+          android:layout_width="335dp"
+          android:layout_height="597dp"
+          android:layout_marginTop="88dp"
+          android:orientation="vertical"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.493"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="@+id/logo"
+          app:layout_constraintVertical_bias="0.363">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/RegisterText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/registrate"
+              android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/mailText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/email"
+              android:textSize="18sp"
+
+              />
+
+          <EditText
+              android:id="@+id/emailInputR"
+              android:layout_width="263dp"
+              android:layout_height="50dp"
+              android:background="@drawable/shape_higlightbox"
+              android:inputType="textEmailAddress"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="371dp"
+            android:layout_height="246dp"
+            android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="75dp"
+              android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/identificacionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/identificaicon"
+                android:textSize="18sp"
+
+
+                />
+
+            <EditText
+                android:id="@+id/identificacionInputR"
+                android:layout_width="260dp"
+                android:layout_height="45dp"
+                android:background="@drawable/shape_higlightbox"
+                android:inputType="number"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="83dp"
+              android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="197dp"
+                android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/nombreText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/nombre"
+                  android:textSize="18sp"
+
+
+                  />
+
+              <EditText
+                  android:id="@+id/nombreInputR"
+                  android:layout_width="260dp"
+                  android:layout_height="45dp"
+                  android:background="@drawable/shape_higlightbox"
+                  android:inputType="text"
+                  android:paddingLeft="16dp"
+                  android:paddingRight="16dp" />
+            </LinearLayout>
+
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/apellidoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apellido"
+                android:textSize="18sp"
+
+
+                />
+
+            <EditText
+                android:id="@+id/apellidoInputR"
+                android:layout_width="260dp"
+                android:layout_height="45dp"
+                android:background="@drawable/shape_higlightbox"
+                android:inputType="text"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" />
+          </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="269dp"
+            android:layout_height="96dp"
+            android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/passwordText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/confirmar_contrase_a"
+              android:textSize="18sp" />
+
+          <EditText
+              android:id="@+id/passwordInputR"
+              android:layout_width="263dp"
+              android:layout_height="50dp"
+              android:background="@drawable/shape_higlightbox"
+              android:inputType="textPassword"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+
+              />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/passwordConfirmText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contrasenia"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/passwordConfirmInputR"
+            android:layout_width="263dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_higlightbox"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_confirmarTerminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:text="@string/terminos"
+            android:textColorLink="@color/white" />
+
+      </LinearLayout>
+
+      <TextView
+        android:id="@+id/inicioSesionDesdeRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/yaTienesCuenta"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonRegister" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

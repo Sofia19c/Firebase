@@ -1,0 +1,16 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Define the background color -->
+    <solid android:color="@color/white"/>
+
+    <!-- Define the stroke (border) -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/black"
+        android:padding="2dp" />
+
+    <!-- Define the corner radius -->
+    <corners android:radius="10dp"/>
+
+</shape>

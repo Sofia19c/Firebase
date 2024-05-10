@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="default_name">default name</string>
+    <string name="biografia">Biografia</string>
+    <string name="email">Email</string>
+    <string name="google_maps_key">AIzaSyDGN1ncnLu3ZN8c2CRLmFkoNb9s341kc_A</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="app_name">Taller 3</string>
+    <string name="textoRegistrarse">¿No tienes cuenta? Oprime ✨aquí✨ \npara registrarte</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="registrate">Registrate</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+    <string name="terminos">Aceptas terminos y condiciones</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="yaTienesCuenta">¿Ya tienes cuenta? 🌕Logueate🌕</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="editar_cuenta">Editar cuenta</string>
+    <string name="error_campos_vacios">"Los campos no pueden estar vacíos"</string>
+    <string name="error_correo_invalido">El correo tiene que ser válido</string>
+    <string name="error_terminos">Tiene que aceptar los terminos</string>
+    <string name="error_password_corto">La contraseña debe tener minimo 6 caracteres</string>
+    <string name="error_passwords_no_coinciden">Las contraseñas deben coincidir</string>
+    <string name="tituloCerrarSesion">Cerrar sesión</string>
+    <string name="auxCerrarSesion">Estas apunto de cerrar sesión, estas seguro?</string>
+    <string name="NoCerrarSesion">No 😎</string>
+    <string name="SiCerrarSesion">Si 😞</string>
+    <string name="snackBar_dismiss_label">error</string>
+    <string name="identificaicon">Identificación</string>
+    <string name="apellido">Apellido</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="asteriscosXD">************</string>
+    <string name="disponible">Disponible</string>
+</resources>
